@@ -4,7 +4,7 @@
 1. `youtube_playlist.h` - Header with function declarations
 2. `youtube_playlist.c` - Implementation for fetching YouTube playlists
 
-## Changes Required in shellbeats.c
+## Changes Required in shelltunes.c
 
 ### 1. Add Include (after line 21, after #include <dirent.h>)
 ```c
@@ -197,13 +197,13 @@ case 'D':
 
 ## Compilation
 ```bash
-gcc shellbeats.c youtube_playlist.c -o shellbeats -lpthread -lncurses
+gcc shelltunes.c youtube_playlist.c -o shelltunes -lpthread -lncurses
 ```
 
 Or update Makefile:
 ```makefile
-shellbeats: shellbeats.c youtube_playlist.c
-	gcc shellbeats.c youtube_playlist.c -o shellbeats -lpthread -lncurses
+shelltunes: shelltunes.c youtube_playlist.c
+	gcc shelltunes.c youtube_playlist.c -o shelltunes -lpthread -lncurses
 ```
 
 ## Testing
