@@ -1,9 +1,9 @@
-# ShellBeats Makefile
+# ShellTunes Makefile
 CC = gcc
 CFLAGS = -Wall -Wextra -O2 -pthread
 LDFLAGS = -lncurses -pthread
 
-TARGET = bin/shellbeats
+TARGET = bin/shelltunes
 SRC = $(wildcard src/*.c)
 
 .PHONY: all clean install uninstall debug
@@ -22,7 +22,7 @@ clean:
 	rm -f $(TARGET)
 
 install: $(TARGET)
-	install -m 755 $(TARGET) /usr/local/bin/shellbeats
+	install -m 755 $(TARGET) /usr/local/bin/shelltunes
 
 uninstall:
-	rm -f /usr/local/bin/shellbeats
+	rm -f /usr/local/bin/shelltunes

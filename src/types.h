@@ -16,8 +16,8 @@
 #define MAX_PLAYLIST_ITEMS 500
 #define MAX_DOWNLOAD_QUEUE 1000
 
-#define IPC_SOCKET          "/tmp/shellbeats_mpv.sock"
-#define CONFIG_DIR          ".shellbeats"
+#define IPC_SOCKET          "/tmp/shelltunes_mpv.sock"
+#define CONFIG_DIR          ".shelltunes"
 #define PLAYLISTS_DIR       "playlists"
 #define PLAYLISTS_INDEX     "playlists.json"
 #define CONFIG_FILE         "config.json"

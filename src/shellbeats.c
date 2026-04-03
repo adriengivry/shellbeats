@@ -30,10 +30,10 @@ int main(int argc, char *argv[]) {
             const char *home = getenv("HOME");
             if (!home) home = "/tmp";
             char log_path[1024];
-            snprintf(log_path, sizeof(log_path), "%s/.shellbeats/shellbeats.log", home);
+            snprintf(log_path, sizeof(log_path), "%s/%s/shelltunes.log", home, CONFIG_DIR);
             log_open(log_path);
             sb_log("========================================");
-            sb_log("ShellBeats v0.6 started with -log");
+            sb_log("ShellTunes v0.6 started with -log");
             sb_log("HOME=%s", home);
             break;
         }
@@ -206,7 +206,7 @@ int main(int argc, char *argv[]) {
     free_all_playlists(&st);
     mpv_quit();
 
-    sb_log("ShellBeats exiting normally");
+    sb_log("ShellTunes exiting normally");
     log_close();
 
     return 0;

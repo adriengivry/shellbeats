@@ -53,7 +53,7 @@ void init_default_config(AppState *st) {
     if (!home) home = "/tmp";
 
     snprintf(st->config.download_path, sizeof(st->config.download_path),
-             "%s/Music/shellbeats", home);
+             "%s/Music/shelltunes", home);
     st->config.seek_step      = 10;
     st->config.remember_session = false;
     st->config.shuffle_mode   = false;

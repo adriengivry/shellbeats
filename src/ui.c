@@ -41,7 +41,7 @@ static char get_spinner_char(int frame) {
 
 static void draw_header(int cols, ViewMode view) {
     attron(A_BOLD);
-    mvprintw(0, 0, " ShellBeats v0.6 ");
+    mvprintw(0, 0, " ShellTunes v0.6 ");
     attroff(A_BOLD);
 
     switch (view) {
@@ -453,7 +453,7 @@ static void draw_about_view(int rows, int cols) {
     attroff(A_BOLD);
 
     attron(A_BOLD | A_REVERSE);
-    mvprintw(start_y + 2, start_x + (dialog_w - 15) / 2, " ShellBeats v0.6");
+    mvprintw(start_y + 2, start_x + (dialog_w - 15) / 2, " ShellTunes v0.6");
     attroff(A_BOLD | A_REVERSE);
 
     mvprintw(start_y + 4, start_x + (dialog_w - 28) / 2, "made by Lalo for Nami & Elia");
@@ -549,7 +549,7 @@ void show_help(void) {
 
     int y = 2;
     attron(A_BOLD);
-    mvprintw(y++, 2, "ShellBeats v0.6 | Help");
+    mvprintw(y++, 2, "ShellTunes v0.6 | Help");
     attroff(A_BOLD);
     y++;
 
