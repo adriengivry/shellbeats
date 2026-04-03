@@ -4,7 +4,7 @@ A terminal music player for Linux. Search YouTube, stream audio, and download tr
 
 > Fork of [shellbeats](https://github.com/lalodev/shellbeats).
 
-![Demo](assets/shellbeats.gif)
+<img width="1407" height="922" alt="image" src="https://github.com/user-attachments/assets/0d4e70a0-de6b-4efd-aee1-cea4e0afaba9" />
 
 ## Dependencies
 
