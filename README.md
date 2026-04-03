@@ -1,8 +1,8 @@
 # ShellTunes
 
-A terminal music player for Linux. Search YouTube, stream audio, and download tracks — all from your command line.
+A terminal music player for Linux. Search YouTube, stream audio, and download tracks, all from your command line.
 
-> Fork of [shellbeats](https://github.com/lalodev/shellbeats) with a cleaner codebase.
+> Fork of [shellbeats](https://github.com/lalodev/shellbeats).
 
 ![Demo](assets/shellbeats.gif)
 
